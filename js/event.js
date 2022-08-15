@@ -1,3 +1,4 @@
 let select = document.getElementsByClassName('stt-select')
-select.onchange
-select.onchange = event => {console.log(select.selectedIndex);｝
+select.addEventListener('change', function() {
+   log.console(select.selectedIndex)
+});
