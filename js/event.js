@@ -1,3 +1,2 @@
-let select = document.getElementsByClassName('stt-select')
-console.log('取得しました')
-select.onchange = function() { console.log('取得しました')}
+let select = document.getElementsByClassName('stt-item')
+select.onclick = function() { console.log('取得しました')}
