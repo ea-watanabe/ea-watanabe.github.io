@@ -151,7 +151,7 @@ overflow:hidden;
 }
 
 * html .gridWrapper{height:1%;}
-	
+
 .grid{
 overflow:hidden;
 }
@@ -409,7 +409,7 @@ padding:10px 0 10px 15px;
 margin:10px 0 25px 30px;
 border-left:5px solid #ccc;
 }
- 
+
 .post blockquote p{padding:5px 0;}
 
 .post table{
@@ -476,7 +476,7 @@ img.alignleft{margin:0 7px 2px 0;}
 	}
 
 	a#menu{display:none;}
-	
+
   #mainNav{
 	clear:both;
 	z-index:200;
@@ -507,7 +507,7 @@ img.alignleft{margin:0 7px 2px 0;}
 	color:#bababa;
 	font-size:10px;
 	}
-	
+
 	#mainNav ul ul{width:160px;background:#fff;}
 	#mainNav li ul{display:none;}
 
@@ -517,7 +517,7 @@ img.alignleft{margin:0 7px 2px 0;}
 	top:64px;
 	z-index:500;
 	}
-	
+
 	#mainNav li li{
 	margin:0;
 	float:none;
@@ -525,7 +525,7 @@ img.alignleft{margin:0 7px 2px 0;}
 	border:0;
 	}
   #mainNav li li:last-child{border:0;}
-	
+
 	#mainNav li li a{
 	width:auto;
 	height:auto;
@@ -536,7 +536,7 @@ img.alignleft{margin:0 7px 2px 0;}
 	}
 
 	#mainNav li li span{padding:0 10px;}
-	
+
 	#mainNav li.current-menu-item a{
 	border-color:#555;
 	}
@@ -550,36 +550,36 @@ img.alignleft{margin:0 7px 2px 0;}
 	padding:0;
 	margin:0 auto;
 	}
-	
+
 	#wrapper{clear:both;padding:20px 0;}
-	
+
 	#main{
 	float:right;
 	width:680px;
 	padding:15px 0 0 0;
 	}
-	
+
 	#sidebar{
 	float:left;
 	width:250px;
 	padding:15px 0;
 	overflow:hidden;
 	}
-	
+
 	#sidebar article{
 	margin-bottom:20px;
 	overflow:hidden;
 	}
-	
+
 	.logo{width:500px;}
-	
+
 	/* グリッド全体 */
 	.gridWrapper{
 	display:table;
 	border-collapse:separate;
 	border-spacing:0px;
 	}
-	
+
 	/* グリッド */
 	.grid{
 	width:320px;
@@ -597,7 +597,7 @@ img.alignleft{margin:0 7px 2px 0;}
         -ms-box-sizing:border-box;
             box-sizing:border-box;
 	}
-	
+
 	#mainNav{
 	clear:both;
 	width:100%;
@@ -634,7 +634,7 @@ img.alignleft{margin:0 7px 2px 0;}
 	top:0;
 	z-index:1;
 	}
-	
+
 	#mainNav ul{margin:0;padding:0;}
 
   #mainNav li{
@@ -652,13 +652,13 @@ img.alignleft{margin:0 7px 2px 0;}
 	text-align:left;
 	border-bottom:1px dashed #ccc;
 	}
-	
+
  	#mainNav li a span{padding-left:10px;}
-	
-	
+
+
 	#mainNav ul > li:last-child a{border:0;}
 	#mainNav li li:last-child a{border-bottom:1px dashed #ccc;}
- 
+
 	#mainNav li.current-menu-item a,#mainNav li a:hover,#mainNav li.current-menu-item a,#mainNav li a:active, #mainNav li li.current-menu-item a, #mainNav li.current-menu-item li a:hover, #mainNav li.current-menu-item li a:active{
 	color:#555;
 	}
@@ -679,17 +679,17 @@ img.alignleft{margin:0 7px 2px 0;}
 	#mainNav li li:last-child.current-menu-item a,#mainNav li li:last-child a:hover,#mainNav li.current-menu-item li:last-child a:hover{background:url(images/subLast.png) no-repeat 20px -65px;}
 
 	nav div.panel{float:none;}
-	
+
 	#header{padding-left:10px;}
-	
+
 	#main{padding-top:15px;}
 	section.toppage{margin:0;}
 	#sidebar{padding-bottom:15px;}
 	#sidebar article{padding:7px 8px;}
-	
+
 	#footer .grid,#footer ul.footnav{float:none;width:100%;text-align:center;}
 	ul.footnav li{float:none;display:inline-block;}
-	
+
 	.grid{
 	float:left;
 	width:32%;
@@ -707,19 +707,19 @@ img.alignleft{margin:0 7px 2px 0;}
 
 @media only screen and (max-width:640px){
 	#header{height:auto;padding-bottom:20px;}
-	
+
 	#header h1,.logo,.info{text-align:center;}
-	
+
 	.logo,.info{clear:both;width:100%;float:none;}
-	
+
 	.logo p{float:none;display:block;}
 	.logo img{float:none;padding:0;}
-	
+
 	.box img{
 	float:left;
 	margin-right:5px;
 	}
-	
+
 	.box h3{padding-top:0;}
 
   .alignleft,.alignright,img.alignleft,img.alignright{float:none;display:block;margin:0 auto 10px;}
@@ -731,4 +731,27 @@ img.alignleft{margin:0 7px 2px 0;}
 	.grid{width:100%;margin:10px 0;}
 	.box img{max-width:100px;}
 	#mainBanner h2,#mainBanner p{font-size:80%;}
+}
+
+ul {
+	width: 200px;                   /* セレクトボックスの横幅 */
+	border: solid 1px #333;         /* 見やすく境界線を引く */
+	position: absolute;             /* 選択肢が開いた時に高さが変わるので指定 */
+	top: 0px;                       /* 好きな位置に */
+	left: 0px;                      /* 好きな位置に */
+}
+ul li {
+	padding: 5px 10px 5px 20px;     /* optionの余白と同等 */
+	display: none;                  /* 最初は非表示 */
+	list-style: none;               /* 「・」を非表示にする */
+}
+ul li.check {
+	color: #fff;                    /* 選択されたもののみ装飾 */
+	font-weight: bold;              /* 選択されたもののみ装飾 */
+	background: #999;               /* 選択されたもののみ装飾 */
+}
+
+p {
+	display: none;                  /* 最初は非表示 */
+	margin-left: 220px;             /* セレクトボックスとかぶらないように位置調整 */
 }
